@@ -30,6 +30,13 @@ public class PlayerController : MonoBehaviour
             transform.position = new Vector3(range, transform.position.y, transform.position.z);
         }
 
+        //Use food prefab when spacebar is pressed
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            // Launch a projectile from the player
+            
+        }
+
         //Get horizontal input
         horizontalInput = Input.GetAxis("Horizontal");
 
