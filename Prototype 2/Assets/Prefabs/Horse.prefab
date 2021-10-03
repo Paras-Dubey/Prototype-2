@@ -351,6 +351,7 @@ GameObject:
   - component: {fileID: 2058548672383423895}
   - component: {fileID: 2058548672392604339}
   - component: {fileID: 2058548672734652462}
+  - component: {fileID: 6503352204596605295}
   m_Layer: 0
   m_Name: Horse
   m_TagString: Untagged
@@ -410,6 +411,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 15
+--- !u!114 &6503352204596605295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2058548672383172775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62b46ffa05fd8584aa30e87075b89f35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2058548672383172945
 GameObject:
   m_ObjectHideFlags: 0
